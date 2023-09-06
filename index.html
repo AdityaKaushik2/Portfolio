@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/favicon.png" />
+    <!-- remixicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Respnsive Personal Portfolio Website</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo__circle">A</span>
+          <span class="nav__logo__name">Aditya Kaushik.</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+          <h3 class="nav__name">Rian</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-me" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact-me" class="nav__link nav__link__button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- dark/light theme button -->
+          <div class="change__theme" id="theme-button">
+            <i class="ri-moon-line"></i>
+          </div>
+          <!-- toggle button    -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <!-- home -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Aditya Kaushik</h1>
+          <div class="home__profile">
+            <div class="home__image">
+              <img
+                src="/public/img/Image.jpg"
+                alt="profile image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+              <img
+                src="/public/img/curved-arrow.svg"
+                alt="some random arrow"
+                class="home__arrow"
+              />
+              <img
+                src="/public/img/random-lines.svg"
+                alt="some random lines"
+                class="home__line"
+              />
+              <div class="geometric__box"></div>
+            </div>
+            <div class="home__socials">
+              <a
+                href="https://www.instagram.com/_aditya_kaushik1/"
+                class="home__socials__link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/349aditya/"
+                class="home__socials__link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a href="https://github.com/" class="home__socials__link">
+                <i class="ri-github-line"></i>
+              </a>
+              <a
+                href="https://twitter.com/669aditya"
+                target="_blank"
+                class="home__socials__link"
+              >
+                <i class="ri-twitter-x-line"></i>
+              </a>
+              <a
+                href="https://wa.me/9759241900"
+                target="_blank"
+                class="home__socials__link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </div>
+          </div>
+          <!-- / -->
+          <div class="home__info">
+            <p class="home__description">
+              <b>Frontend Developer</b>, with knowledge in web development and
+              design, I offer the best projects resulting in quality work.
+            </p>
+
+            <a href="#about-me" class="home__scroll">
+              <div class="home__scroll__box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+              <span class="home__scroll__text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- about me -->
+      <section class="about__me section" id="about-me">
+        <div class="about__container container grid">
+          <h2 class="section__title__1"><span>About Me.</span></h2>
+
+          <div class="about__profile">
+            <div class="about__image">
+              <img
+                src="/public/img/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg"
+                alt="about me image"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
+              <div class="geometric__box"></div>
+              <img
+                src="/public/img/random-lines.svg"
+                alt="some random lines"
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              A Passionate and aspiring <b>web developer</b> with a strong
+              desire to create innovative and user-friendly websites.
+            </p>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git &
+                GitHub, Bootstrap.
+              </li>
+            </ul>
+
+            <div class="about__buttons">
+              <a href="#contact-me" class="button">
+                <i class="ri-send-plane-line"></i>
+                Contact Me
+              </a>
+              <a
+                href="https://www.linkedin.com/in/349aditya/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="services section" id="services">
+        <h2 class="section__title__2">
+          <span>Services.</span>
+        </h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+              <h2 class="services__title">Web Design</h2>
+              <p class="services__description">
+                Beautiful and elegant designs with interfaces that are
+                intuitive, efficient and pleasant to use for the user.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+              <h2 class="services__title">Development</h2>
+              <p class="services__description">
+                Custom web development tailored to your specifications, designed
+                to provide a flawless user experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+              <h2 class="services__title">Mobile App</h2>
+              <p class="services__description">
+                Design and transform website projects into mobile apps to
+                provide a seamless user experience.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section class="projects section" id="projects">
+        <h2 class="section__title__1">
+          <span>Projects.</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="/public/img/Simple Counter.png"
+                alt=""
+                class="projects__img"
+              />
+              <a
+                href="https://wondrous-smakager-be2981.netlify.app/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Simple Counter</h2>
+              <p class="projects__description">
+                Build A simple counter App to implement my learnings of
+                JavaScript. It keeps increment on a single click. It saves a
+                entry by clicking on a button. It keeps track of previous
+                entries.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/AdityaKaushik2/SimpleCounter/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-github-line"></i>
+                Code
+              </a>
+              <!-- <a
+                href="https://dribbble.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-dribbble-line"></i>
+                View
+              </a> -->
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="/public/img/project-2 Ecommerce.jpg"
+                alt=""
+                class="projects__img"
+              />
+              <a
+                href="https://nice-colt-petticoat.cyclic.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Ecommerce Website</h2>
+              <p class="projects__description">
+                The Web Development project on Facilitate Sales and Online
+                business. User Can register and login and add items to carts
+                before checkout. Admin can create and delete products and manage
+                shipping of item.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/AdityaKaushik2/Ecommerce/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-github-line"></i>
+                Code
+              </a>
+              <!-- <a
+                href="https://dribbble.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-dribbble-line"></i>
+                View
+              </a> -->
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="/public/img/Portfolio.jpeg"
+                alt=""
+                class="projects__img"
+              />
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Personal Portfolio Website</h2>
+              <p class="projects__description">
+                Personal Portfolio Website is used to showcase my personal and
+                professional skills, works and Achievements. HTML, CSS And
+                JavaScript were used to create this portfolio website. It is a
+                static website hosted using AWS S3 Storage
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-github-line"></i>
+                Code
+              </a>
+            </div>
+          </article>
+
+          <!-- <article class="projects__card">
+            <div class="projects__image">
+              <img src="/img/project-1.jpg" alt="" class="projects__img" />
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Coffee Delivery Website</h2>
+              <p class="projects__description">
+                Project that you carry out in the design and structure of the
+                layout, showing the design at the client's request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-github-line"></i>
+                View
+              </a>
+              <a
+                href="https://dribbble.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-dribbble-line"></i>
+                View
+              </a>
+            </div>
+          </article> -->
+          <!-- 
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="/img/project-2.jpg" alt="" class="projects__img" />
+              <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Barbershop Website</h2>
+              <p class="projects__description">
+                Project that you carry out in the design and structure of the
+                layout, showing the design at the client's request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-github-line"></i>
+                View
+              </a>
+              <a
+                href="https://dribbble.com/"
+                class="projects__link"
+                target="_blank"
+              >
+                <i class="ri-dribbble-line"></i>
+                View
+              </a>
+            </div>
+          </article> -->
+        </div>
+      </section>
+
+      <!-- contact me -->
+      <section class="contact__me section" id="contact-me">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h2 class="section__title__2">
+              <span>Contact Me.</span>
+            </h2>
+
+            <p class="contact__description__1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description__2">
+              I need your <b>Name</b> and <b>Email Address</b>, but you won't
+              receive anything other than your reply.
+            </p>
+
+            <div class="geometric__box"></div>
+          </div>
+
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    class="contact__input"
+                    id="name"
+                    name="user_name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    class="contact__input"
+                    id="email"
+                    name="user_email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label">
+                    Email Address
+                  </label>
+                </div>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="text"
+                  class="contact__input"
+                  id="subject"
+                  name="user_subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  class="contact__input"
+                  id="message"
+                  name="user_message"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img
+              src="/public/img/curved-arrow.svg"
+              alt=""
+              class="contact__social__arrow"
+            />
+            <div class="contact__social__data">
+              <div>
+                <p class="contact__social__description__1">
+                  Does not send emails
+                </p>
+                <p class="contact__social__description__2">
+                  Write me on my social networks
+                </p>
+              </div>
+              <div class="contact__social__links">
+                <a
+                  href="https://wa.me/9759241900/"
+                  target="_blank"
+                  class="contact__social__link"
+                >
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/_aditya_kaushik1/"
+                  target="_blank"
+                  class="contact__social__link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/349aditya/"
+                  target="_blank"
+                  class="contact__social__link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about-me" class="footer__link">About Me</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          Made With 🧡
+          <a href="#contact-me">By Aditya</a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- scroll up -->
+    <a href="#" class="scroll__up" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!-- scroll reveal -->
+    <script src="/javascript/scrollreveal.min.js"></script>
+
+    <!-- emailjs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!-- main.js -->
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
